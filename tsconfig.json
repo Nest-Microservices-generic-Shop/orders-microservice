@@ -1,4 +1,9 @@
 {
+  "watchOptions": {
+      "watchFile": "dynamicPriorityPolling",
+      "watchDirectory": "dynamicPriorityPolling",
+      "excludeDirectories": ["**/node_modules", "dist"]
+  },
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
@@ -16,11 +21,7 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false,
-    "watchOptions": {
-      "watchFile": "dynamicPriorityPolling",
-      "watchDirectory": "dynamicPriorityPolling",
-      "excludeDirectories": ["**/node_modules", "dist"]
-    }
+    "noFallthroughCasesInSwitch": false
   }
+  
 }
